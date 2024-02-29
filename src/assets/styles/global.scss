@@ -1,0 +1,31 @@
+@import './base';
+
+section,
+header,
+footer {
+	padding-inline: 1rem;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+	background-color: var(--pc-green);
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: var(--pc-blue);
+	border-radius: 20px;
+}
+
+// ANIMATION
+// font-family: var(--font-first);
+// 				animation: letter-breathe 3s ease-in-out infinite;
+
+// 				@keyframes letter-breathe {
+// 					from,
+// 					to {
+// 						font-variation-settings: 'wght' 100;
+// 					}
+
+// 					50% {
+// 						font-variation-settings: 'wght' 900;
+// 					}}
